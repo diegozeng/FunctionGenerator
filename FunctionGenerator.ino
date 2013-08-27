@@ -21,7 +21,7 @@ int sample;
 float k;
 
 void setup() {
-  ADC->ADC_MR = 0x10310180;
+  ADC->ADC_MR = 0x10310100;
   analogWriteResolution(12);  // set the analog output resolution to 12 bit (4096 levels)
   analogReadResolution(12);   // set the analog input resolution to 12 bit
 
